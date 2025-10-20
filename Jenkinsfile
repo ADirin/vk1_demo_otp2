@@ -1,6 +1,10 @@
 pipeline {
     agent any
+    tools {
+    Maven 'maven3'
+    }
      environment {
+      PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
             // Define Docker Hub repository name
