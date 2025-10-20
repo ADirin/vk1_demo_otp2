@@ -9,7 +9,7 @@ pipeline {
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'amirdirin/week7_inclass_test12'
+            DOCKERHUB_REPO = 'amirdirin/OTP_week1_Latviatest'
             // Define Docker image tag
             DOCKER_IMAGE_TAG = 'latest_v1'
         }
