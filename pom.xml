@@ -59,9 +59,9 @@
                         <include>**/*Tests.java</include>
                     </includes>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
             </plugin>
-
 
 
             <!-- JaCoCo Plugin for code coverage -->
