@@ -9,7 +9,7 @@ pipeline {
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'amirdirin/OTP_week1_latviatest'
+            DOCKERHUB_REPO = 'amirdirin/otp2_week1_latviatest'
             // Define Docker image tag
             DOCKER_IMAGE_TAG = 'latest_v1'
         }
@@ -49,7 +49,7 @@ pipeline {
                     steps {
                         // Build Docker image
                         script {
-                            docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
+                           docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
                         }
                     }
                 }
